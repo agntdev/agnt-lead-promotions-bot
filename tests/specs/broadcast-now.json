@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/broadcast-now",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Send immediate broadcast to selected segment"
+            }
+          }
+        ],
+        "send": {
+          "text": "/broadcast-now"
+        }
+      }
+    ]
+  }
+]
